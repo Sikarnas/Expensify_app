@@ -14,9 +14,6 @@ store.subscribe(() => {
     const state = store.getState();
 })
 
-store.dispatch(addExpense({description: 'water bill', amount: 800, createdAt: 3000}));
-store.dispatch(addExpense({description: 'gass bill', amount: 65000, createdAt: 1500}));
-store.dispatch(addExpense({description: 'rent', amount: 265000, createdAt: 8000}));
 const jsx = (
     <Provider store={store}>
         <AppRouter/>
