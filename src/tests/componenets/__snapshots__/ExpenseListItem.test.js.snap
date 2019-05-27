@@ -8,7 +8,8 @@ exports[`should render ExpenseListItem 1`] = `
     gum
   </Link>
   <p>
-    $ 1.95 0
+    $ 01.95
+             1970-01-01
   </p>
 </div>
 `;
