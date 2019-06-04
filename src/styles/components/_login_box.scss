@@ -1,0 +1,25 @@
+.login_box {
+    background-image: url('/images/test2.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    display:   flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_box__box {
+    background: fade-out( white, $amount: 0.15);
+    border-radius: 3px;
+    width: 18rem;
+    height: 9.5rem;
+    text-align: center;
+    margin:0;
+    padding: $s-size $s-size 50px $s-size;
+}
+
+.box-layout__title {
+    margin: 0 0 2px 0;
+    line-height: 1;
+}

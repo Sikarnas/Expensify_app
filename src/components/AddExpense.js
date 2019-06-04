@@ -12,7 +12,11 @@ export class AddExpense extends React.Component {
     render() {
         return (
             <div>
-                <h1>Add expense</h1>
+                <div className="page-header">
+                    <div className="ui container">
+                        <h1 className="page-header__title">Add expense</h1>        
+                    </div>
+                </div>
                 <ExpenseForm
                     onSubmit={this.onSubmit}
                 />

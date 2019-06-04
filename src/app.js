@@ -30,7 +30,18 @@ const jsx = (
     </Provider>
 )
 
-ReactDOM.render(<p>loading...</p>, document.getElementById('app'));
+const Loader = () => (
+    <div className="loader">
+        <div className="ui active inverted dimmer">
+            <div className="ui large text loader">Loading</div>
+        </div>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+)
+
+ReactDOM.render(<Loader/>, document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user) => {
     if(user) {

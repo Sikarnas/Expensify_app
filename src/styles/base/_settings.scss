@@ -1,9 +1,19 @@
 // colours
 
-// font-size
-$xs-size: 1.2rem;
-$s-size: 1.6rem;
-$m-size: 3.2rem;
-$l-size: 4.8rem;
+$yellow: #FCE181;
+$dark-blue: #123C69;
+$dark-gray: #333333;
+$border: #DEDEDF;
+$background: rgb(226, 230, 235);
 
-$desktop-breakpoint: 30rem;
+// font-size
+$xs-size: 0.6rem;
+$s-size: 1.2rem;
+$m-size: 1.8rem;
+$l-size: 3.6rem;
+
+$desktop-breakpoint: 900px;
+
+* {
+    box-sizing: border-box;
+}
