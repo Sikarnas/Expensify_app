@@ -11,7 +11,7 @@ const ExpenseListItem = (props) => (
                 <span className="list_item_subtitle">{moment(props.createdAt).format('YYYY-MM-DD')}</span>
             </div>
             <div>
-                <h3 className="list-item__amount">{numeral(props.amount/100).format('00.00')}</h3>
+                <h3 className="list-item__amount">{numeral(props.amount/100).format('00.00')} €</h3>
             </div>
         </Link>
 )
